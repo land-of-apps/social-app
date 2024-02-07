@@ -1,0 +1,10 @@
+name: social-app
+appmap_dir: tmp/appmap
+packages:
+  - path: atproto/
+    exclude:
+      - node_modules
+  - path: .
+    exclude:
+      - node_modules
+      - .yarn
